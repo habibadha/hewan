@@ -28,9 +28,9 @@ Tiketcoin: 1 Tiketcoin
     }, timeout)
   ]
 }
-handler.help = ['tebakgambarprem']
-handler.tags = ['game']
-handler.command = /^tebakgambarp/i
+handler.help = ['tebgamp']
+handler.tags = ['premium']
+handler.command = /^tebgamp/i
 handler.premium = true
 handler.limit = true
 handler.group = true

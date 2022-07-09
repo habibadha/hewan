@@ -16,7 +16,7 @@ ${text}
 `.trim(), m)
 }
 handler.help = ['gimage <search>']
-handler.tags = ['internet']
+handler.tags = ['premium']
 handler.command = /^(gimage|image)$/i
 handler.limit = true
 handler.premium = true

@@ -63,7 +63,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 
 handler.help = ['stikertelegram <url>']
-handler.tags = ['sticker']
+handler.tags = ['premium']
 handler.command = /^(stic?kertele(gram)?)$/i
 
 handler.limit = true

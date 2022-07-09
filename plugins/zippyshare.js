@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
  conn.sendFile(m.chat, download, filename, filename, m)
 }
 handler.help = ['ippyshare'].map(v => 'z' + v + ' <url>')
-handler.tags = ['downloader']
+handler.tags = ['premium']
 handler.command = /^z(ippydl|ippyshare)$/i
 
 handler.limit = true

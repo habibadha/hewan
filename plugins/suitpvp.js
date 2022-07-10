@@ -1,5 +1,5 @@
 let timeout = 60000
-let poin = 70000
+let poin = 50000
 let poin_lose = -100000
 let handler = async (m, { conn, usedPrefix }) => {
   conn.suit = conn.suit ? conn.suit : {}
